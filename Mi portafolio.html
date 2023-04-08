@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Currículum</title>
+    <style>
+      /* Estilos para la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      section {
+        margin: 30px auto;
+        max-width: 800px;
+        padding: 0 20px;
+      }
+      h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      
+      /* Estilos para la sección de habilidades */
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .skill {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+      }
+      .skill:hover {
+        background-color: #eee;
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      .skill h3 {
+        margin-top: 0;
+        font-size: 18px;
+      }
+      
+      .contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.contact-btn:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contact-btn img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.contact-btn span {
+  font-weight: bold;
+}
+body {
+  background-color: #f7ede2;
+}
+      /* Estilos adicionales */
+      a {
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+      a:hover {
+        color: #777;
+      }
+      .btn {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .btn:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Angel Guadalupe Vazquez Cancino</h1>
+    </header>
+    <section>
+      <h2>Sobre mí</h2>
+      <img src="Angel CV.jpg" alt="Mi persona" width="200">
+      <p>Soy una persona autodidacta la cual a su vez le agrada aprender de otros, <br> mi lema es "Todo conocimiento es bueno"
+     me incursione en el mundo de la programacion, <br> desde la preparotaria y desde ese entonces no me e desprendido de el.<br> Me considero una persona muy dedicada, organizada y dispuesta a trabajar duro para alcanzar mis objetivos.</p>
+    </section>
+    <a href="mailto:angelcpp19@gmail.com" target="_blank" class="contact-btn">
+        <img src="Gmail.png" alt="Icono de Contacto">
+        <span>Contactar</span>
+      </a>
+<section>
+    <h2>Mis metas</h2>
+    <p>Mi objetivo es seguir aprendiendo y expandiendo mis conocimientos. Estoy seguro de que el trabajo en el que estoy interesado me brindará la oportunidad de trabajar en proyectos desafiantes y aprender de los profesionales más experimentados en el campo de la programación.</p>
+</section>
+
+    <section>
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español (nativo)</li>
+        <li>Inglés (Intermedio)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Formación Académica</h2>
+      <ul>
+        <li>Cursando TSU Contaduria en la Universidad Tecnologica Del Sureste de Veracruz</li>
+        <li>Preparatoria: Colegio de Bachilleres del estado de veracruz</li>
+        <li>Curso Educacion Financiera (Presencial con constancia)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Proyectos</h2>
+      <ul>
+        <li><a href="pendiente.html">Proximamente</a></li>
+      </ul>
+    </section>
+            <section>
+                <h2>Conocimientos</h2>
+                <div class="skills">
+                  <div class="skill">
+                    <h3>C++</h3>
+                    <img src="C++.png" alt="C++" width="100">
+                  </div>
+                  <div class="skill">
+                    <h3>Java</h3>
+                    <img src="java.png" alt="Java" width="100">
+                  </div>
+                  <div class="skill">
+                    <h3>Python</h3>
+                    <img src="Phyton.png" alt="Python" width="100">
+                  </div>
+                  <div class="skill">
+                    <h3>SQL</h3>
+                    <img src="sql.png" alt="SQL" width="100">
+                  </div>
+                  <div class="skill">
+                    <h3>HTML</h3>
+                    <img src="Html.png" alt="HTML" width="100">
+                  </div>
+                  <div class="skill">
+                    <h3>Paqueteria Office</h3>
+                    <img src="office.png" alt="Paquete Office" width="100">
+                  </div>
+                </div>
+              </section>
